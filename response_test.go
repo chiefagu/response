@@ -1,12 +1,12 @@
 package response_test
 
 import (
-	"dps-points/pkg/response"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
 
+	"github.com/chiefagu/response"
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
