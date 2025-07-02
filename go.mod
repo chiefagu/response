@@ -1,4 +1,4 @@
-module github.com/chiefagu/response
+module bitbucket.org/interswitch/points-shared/response
 
 go 1.23.6
 

@@ -24,6 +24,7 @@ func SendSuccessResponse(c echo.Context, data any) error {
 	return c.JSON(http.StatusOK, response)
 }
 
+// SendNoContentResponse sends a no content response
 func SendNoContentResponse(c echo.Context) error {
 	return c.NoContent(http.StatusNoContent)
 }
